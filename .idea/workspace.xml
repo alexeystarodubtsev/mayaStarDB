@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f27993-28d8-4c13-804f-9bf5ed0baa51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/spiner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spiner/spiner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spiner/spiner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/person-details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/person-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
-    </list>
+    <list default="true" id="15f27993-28d8-4c13-804f-9bf5ed0baa51" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +68,7 @@
       <workItem from="1615200761121" duration="3121000" />
       <workItem from="1615365591143" duration="2987000" />
       <workItem from="1615391017792" duration="1976000" />
-      <workItem from="1615460169950" duration="9385000" />
+      <workItem from="1615460169950" duration="9740000" />
     </task>
     <task id="LOCAL-00001" summary="help me">
       <created>1615024416410</created>
@@ -90,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615024416410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="help me aaa">
+      <created>1615477511312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615477511312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="help me" />
-    <option name="LAST_COMMIT_MESSAGE" value="help me" />
+    <MESSAGE value="help me aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="help me aaa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
