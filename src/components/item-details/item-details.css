@@ -5,3 +5,11 @@
 .item-list .list-group-item:hover {
     background-color: #444;
 }
+
+.item-list {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    width: 900px;
+    flex-direction: column;
+}

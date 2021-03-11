@@ -1,11 +1,19 @@
-.randomplanet .planet-image
+/*.random planet .planet-image*/
 .random-planet {
     display: flex;
     padding: 1rem;
+    width: 900px;
+    margin: 1rem;
 }
 
-.random-planet .random-image {
-    width: 150px;
-    height: 150px;
+.random-image {
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    display: flex;
 }
+.planet-image {
+    border-radius: 10px;
+    margin: 10px;
+}
+
