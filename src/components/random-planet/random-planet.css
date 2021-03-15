@@ -7,13 +7,15 @@
 }
 
 .random-image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     display: flex;
 }
 .planet-image {
     border-radius: 10px;
     margin: 10px;
+    width: 200px;
+    height: 200px;
 }
 
