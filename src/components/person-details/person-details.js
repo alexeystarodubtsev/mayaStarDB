@@ -7,24 +7,38 @@ export default class PersonDetails extends Component {
     swapiService = new SwapiService();
 
     state = {
-        person: null
+        person: {}
     };
 
     componentDidMount() {
         this.updatePerson();
     }
 
+    componentDidUpdate(prevProps) {
+        if (prevProps.personId !== this.props.personId){
+            this.updatePerson();
+        }
+    }
+
+    onPersonLoading = (person) => {
+        this.setState({
+            person
+        });
+    };
+
     updatePerson() {
-        const { personId } = this.props;
-        if (!personId){
+        const {personId} = this.props;
+        if (!personId) {
             return;
         }
+        console.log(`personID ${personId}`)
+        const id = personId
         this.swapiService
-            .getPerson(personId)
+            .getPerson(id)
+             // this.setState({personId})
             .then((person) => {
-                console.log(`person-son ${person}`)
-                this.setState({person});
-            })
+                this.onPersonLoading({...person, id});
+            });
     }
 
     render() {
@@ -42,7 +56,7 @@ export default class PersonDetails extends Component {
                      alt="character"/>
 
                     <div className="card-body">
-                        <h4>{ name }</h4>
+                        <h4>{ name } {this.props.personId}</h4>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <span className="term">Gender</span>
