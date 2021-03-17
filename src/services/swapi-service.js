@@ -50,6 +50,7 @@ export default class SwapiService {
     _transformPlanet = (planet) => {
         return {
             id: this._extractId(planet),
+            // Maya, I love you
             name: planet.name,
             population: planet.population,
             rotationPeriod: planet.rotation_period,
